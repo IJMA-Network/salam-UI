@@ -1,0 +1,59 @@
+[
+    {
+        "seller": "GfHq2tTVk9z4eXgyLG6FeL2fabAq3RFmXmfRa7pgnMPQe32CvdBpvrKGEZCo",
+        "buyer": "GfHq2tTVk9z4eXgyKM7nhJP4Ndh7Kcn4UF6gv9dmUxRLPMSgyoyCp9LoCjWX",
+        "sellerAccountInfo": {
+            "name": "Seller2",
+            "host": "O=SellerBank, L=Lahore, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "6ca5c53f-8621-4aa6-aaa1-1a247a409d04"
+            }
+        },
+        "buyerAccountInfo": {
+            "name": "Buyer1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "76a856f3-3ae0-4c35-92f1-de792421dcd0"
+            }
+        },
+        "date": "2022-09-28",
+        "proformaId": "PR-1",
+        "processId": "PR-1",
+        "description": "EgyptianCotton",
+        "goods": {
+            "seller": "GfHq2tTVk9z4eXgyLG6FeL2fabAq3RFmXmfRa7pgnMPQe32CvdBpvrKGEZCo",
+            "vendor": {
+                "name": "Seller2",
+                "host": "O=SellerBank, L=Lahore, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "6ca5c53f-8621-4aa6-aaa1-1a247a409d04"
+                }
+            },
+            "assetOwner": "GfHq2tTVk9z4eXgyLG6FeL2fabAq3RFmXmfRa7pgnMPQe32CvdBpvrKGEZCo",
+            "quantity": {
+                "value": 1000.0,
+                "unit": "Meters"
+            },
+            "processId": "PR-1",
+            "consignmentNumber": "CN-1",
+            "asset": "Cotton",
+            "description": "EgyptianCotton",
+            "isRedeemable": true,
+            "takaful": false,
+            "owner": "GfHq2tTVk9z4eXgyLG6FeL2fabAq3RFmXmfRa7pgnMPQe32CvdBpvrKGEZCo",
+            "participants": [
+                "GfHq2tTVk9z4eXgyLG6FeL2fabAq3RFmXmfRa7pgnMPQe32CvdBpvrKGEZCo"
+            ]
+        },
+        "amount": 5000000,
+        "consumable": true,
+        "participants": [
+            "GfHq2tTVk9z4eXgyKM7nhJP4Ndh7Kcn4UF6gv9dmUxRLPMSgyoyCp9LoCjWX",
+            "GfHq2tTVk9z4eXgyLG6FeL2fabAq3RFmXmfRa7pgnMPQe32CvdBpvrKGEZCo"
+        ]
+    }
+    
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "id": "PNPO-MAPP-PR-1",
+        "value": 600000,
+        "issuerParty": "GfHq2tTVk9z4eXgyFXBCbnk6CVv4FuJ4ChWYr9vwQnoMtczJGDVy8wJ6yowa",
+        "issuerAccount": {
+            "name": "Bank1",
+            "host": "OU=RG-530-568-ND-515-826-523, O=RG-530-568, L=Singapore, ST=Singapore, C=SG",
+            "identifier": {
+                "externalId": null,
+                "id": "aa1b7ca6-f3d7-4b87-a7ee-7208d017e4ad"
+            }
+        },
+        "payeeParty": "GfHq2tTVk9z4eXgyRZebXA6N8KMRLCTEiYPRnuvvw98hAvAADZe8R7m9ZFB6",
+        "payeeAccount": {
+            "name": "Seller1",
+            "host": "OU=RG-530-568-ND-150-535-138, O=RG-530-568, L=Singapore, ST=Singapore, C=SG",
+            "identifier": {
+                "externalId": null,
+                "id": "023b7247-5efc-4118-bcaa-84e87d23ed8c"
+            }
+        },
+        "issueDate": "2023-05-30",
+        "maturity": "2021-01-13",
+        "isRedeemable": false,
+        "linearId": {
+            "externalId": null,
+            "id": "944b6a2a-7f83-47ce-9976-c90af7f4c6bc"
+        }
+    },
+    {
+        "id": "PNPO-MAPP-PR-1",
+        "value": 600000,
+        "issuerParty": "GfHq2tTVk9z4eXgyFXBCbnk6CVv4FuJ4ChWYr9vwQnoMtczJGDVy8wJ6yowa",
+        "issuerAccount": {
+            "name": "Bank2",
+            "host": "OU=RG-530-568-ND-515-826-523, O=RG-530-568, L=Singapore, ST=Singapore, C=SG",
+            "identifier": {
+                "externalId": null,
+                "id": "aa1b7ca6-f3d7-4b87-a7ee-7208d017e4ad"
+            }
+        },
+        "payeeParty": "GfHq2tTVk9z4eXgyRZebXA6N8KMRLCTEiYPRnuvvw98hAvAADZe8R7m9ZFB6",
+        "payeeAccount": {
+            "name": "Seller1",
+            "host": "OU=RG-530-568-ND-150-535-138, O=RG-530-568, L=Singapore, ST=Singapore, C=SG",
+            "identifier": {
+                "externalId": null,
+                "id": "023b7247-5efc-4118-bcaa-84e87d23ed8c"
+            }
+        },
+        "issueDate": "2021-01-11",
+        "maturity": "2021-01-13",
+        "isRedeemable": false,
+        "linearId": {
+            "externalId": null,
+            "id": "944b6a2a-7f83-47ce-9976-c90af7f4c6bc"
+        }
+    }
+  ]

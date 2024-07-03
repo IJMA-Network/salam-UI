@@ -1,0 +1,35 @@
+[
+    {
+        "bank": "GfHq2tTVk9z4eXgyGeu5QrvhXEGYBW9jp7LjtJJ7ubbjbpUXqmHCCDsm4wE9",
+        "borrower": "GfHq2tTVk9z4eXgyVCYoem3Dw1TcSjJuqyv4qFtBi8C3pBW7F2BMWYrnQyDH",
+        "bankAccountInfo": {
+            "name": "Bank1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "a20ae153-85fb-4744-9abd-dd92b75b2db8"
+            }
+        },
+        "borrowerAccountInfo": {
+            "name": "Buyer1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "043c3fa6-eec0-4b8a-b742-d71ca1b4d445"
+            }
+        },
+        "termSheetReference": "Term-1",
+        "limit": 10000,
+        "outStanding": 0,
+        "tenor": 30,
+        "referenceRate": "3MK",
+        "spread": 6.0,
+        "isAccepted": false,
+        "issueDate": "2021-01-08",
+        "expiryDate": "2022-01-08",
+        "participants": [
+            "GfHq2tTVk9z4eXgyGeu5QrvhXEGYBW9jp7LjtJJ7ubbjbpUXqmHCCDsm4wE9",
+            "GfHq2tTVk9z4eXgyVCYoem3Dw1TcSjJuqyv4qFtBi8C3pBW7F2BMWYrnQyDH"
+        ]
+    }
+]

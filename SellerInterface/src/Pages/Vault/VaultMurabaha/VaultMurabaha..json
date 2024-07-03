@@ -1,0 +1,59 @@
+[
+    {
+        "bank": "GfHq2tTVk9z4eXgyMrX22p5smhrxc2N6u9oNwxKczdFdoVchab4tp1Bftt1r",
+        "bankAccountInfo": {
+            "name": "IBANPKKA0000BANK2",
+            "host": "O=SellerBank, L=Lahore, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "7e6bd7b9-2dc7-4c22-8bdb-158fab92c848"
+            }
+        },
+        "borrower": "GfHq2tTVk9z4eXgyFvgFQ8FVHQQhDxc9Xz4QKYVSTiW8kkzJ7BMWPVDTgzBv",
+        "borrowerAccountInfo": {
+            "name": "IBANPKKA0000BUYER1",
+            "host": "O=SellerBank, L=Lahore, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "055364bb-a1f5-4146-a6a0-4f4fe5535ae2"
+            }
+        },
+        "internalReference": "MUR-MAPP-PR1-1",
+        "agreementDate": "MM-DD-YY",
+        "goods": {
+            "seller": "GfHq2tTVk9z4eXgyNEJBAJwfNPuo8WWtPXwRs5RLZiFLftLAizZYab5iumKb",
+            "vendor": {
+                "name": "IBANPKKA0000SELLER2",
+                "host": "O=SellerBank, L=Lahore, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "5de0a9ed-a9b1-4fc3-b5c3-34e811d29782"
+                }
+            },
+            "assetOwner": "GfHq2tTVk9z4eXgyFvgFQ8FVHQQhDxc9Xz4QKYVSTiW8kkzJ7BMWPVDTgzBv",
+            "quantity": {
+                "value": 600.0,
+                "unit": "voils"
+            },
+            "internalReference": "CN-1-1",
+            "asset": "Medic",
+            "description": "Covid vaccines",
+            "isRedeemable": true,
+            "takaful": false,
+            "owner": "GfHq2tTVk9z4eXgyFvgFQ8FVHQQhDxc9Xz4QKYVSTiW8kkzJ7BMWPVDTgzBv",
+            "participants": [
+                "GfHq2tTVk9z4eXgyFvgFQ8FVHQQhDxc9Xz4QKYVSTiW8kkzJ7BMWPVDTgzBv"
+            ]
+        },
+        "costPrice": 600000,
+        "sellingprice": 600000.0111111111,
+        "profitrate": 0.16,
+        "term": 25,
+        "bankSignature": true,
+        "borrowerSignature": true,
+        "participants": [
+            "GfHq2tTVk9z4eXgyMrX22p5smhrxc2N6u9oNwxKczdFdoVchab4tp1Bftt1r",
+            "GfHq2tTVk9z4eXgyFvgFQ8FVHQQhDxc9Xz4QKYVSTiW8kkzJ7BMWPVDTgzBv"
+        ]
+    }
+]

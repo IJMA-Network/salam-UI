@@ -1,0 +1,52 @@
+[
+    {
+        "seller": "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh",
+        "vendor": {
+            "name": "IBANPKKA0000SELLER2",
+            "host": "O=SellerBank, L=Lahore, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "f089695d-ce0c-4f16-8245-04657cb845e3"
+            }
+        },
+        "assetOwner": "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh",
+        "quantity": {
+            "value": "12 million bales",
+            "unit": "pcs"
+        },
+        "internalReference": "CN-2.1",
+        "asset": "Cotton",
+        "description": "Egyptian Cotton of Superior Quality",
+        "isRedeemable": true,
+        "takaful": false,
+        "owner": "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh",
+        "participants": [
+            "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh"
+        ]
+    },
+    {
+        "seller": "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh",
+        "vendor": {
+            "name": "IBANPKKA0000SELLER2",
+            "host": "O=SellerBank, L=Lahore, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "f089695d-ce0c-4f16-8245-04657cb845e3"
+            }
+        },
+        "assetOwner": "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh",
+        "quantity": {
+            "value": "12 million bales",
+            "unit": "pcs"
+        },
+        "internalReference": "CN-2.2",
+        "asset": "Cotton",
+        "description": "Egyptian Cotton of Superior Quality",
+        "isRedeemable": true,
+        "takaful": false,
+        "owner": "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh",
+        "participants": [
+            "GfHq2tTVk9z4eXgyKRVD72eqXCTyxTGgFr4VgsUrYnzRs7QA6NMjgBRjamKh"
+        ]
+    }
+]
