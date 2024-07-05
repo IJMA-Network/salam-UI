@@ -1,0 +1,63 @@
+[
+    {
+        "bank": "GfHq2tTVk9z4eXgyHHET1jrTwG6FjaHAfWY3HivRYGMsd4y4N9kaayGyTPTD",
+        "bankAccountInfo": {
+            "name": "Bank1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "3f3089cd-200e-4cb1-b021-5b215a23d03f"
+            }
+        },
+        "borrower": "GfHq2tTVk9z4eXgyHHET1jrTwG6FjaHAfWY3HivRYGMsd4y4N9kaayGyTPTD",
+        "borrowerAccountInfo": {
+            "name": "Buyer1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "133624d4-e28d-43f2-a917-5cfa4c5f25fa"
+            }
+        },
+        "processId": "PR-1",
+        "internalReference": "PO-MAPP-PR-1",
+        "offerDate": "",
+        "goods": {
+            "seller": "GfHq2tTVk9z4eXgyR8Ptbk4qaWznqCj6yMkAXoDiNJ9wXzZNf56crXwGniWU",
+            "vendor": {
+                "name": "Bank1",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "3f3089cd-200e-4cb1-b021-5b215a23d03f"
+                }
+            },
+            "assetOwner": "GfHq2tTVk9z4eXgyHHET1jrTwG6FjaHAfWY3HivRYGMsd4y4N9kaayGyTPTD",
+            "quantity": {
+                "value": 1000.0,
+                "unit": "Meter"
+            },
+            "processId": "PR-1",
+            "consignmentNumber": "PR-1",
+            "asset": "Cotton",
+            "description": "American Cotton",
+            "isRedeemable": true,
+            "takaful": false,
+            "owner": "GfHq2tTVk9z4eXgyHHET1jrTwG6FjaHAfWY3HivRYGMsd4y4N9kaayGyTPTD",
+            "participants": [
+                "GfHq2tTVk9z4eXgyHHET1jrTwG6FjaHAfWY3HivRYGMsd4y4N9kaayGyTPTD"
+            ]
+        },
+        "costPrice": 786.0,
+        "offerprice": 0.0,
+        "profit": 0.0,
+        "schedule": "",
+        "Maturiy": "",
+        "acceptanceDate": "",
+        "borrowerSignature": false,
+        "bankSignature": false,
+        "participants": [
+            "GfHq2tTVk9z4eXgyHHET1jrTwG6FjaHAfWY3HivRYGMsd4y4N9kaayGyTPTD",
+            "GfHq2tTVk9z4eXgyHHET1jrTwG6FjaHAfWY3HivRYGMsd4y4N9kaayGyTPTD"
+        ]
+    }
+]

@@ -1,0 +1,391 @@
+[
+    {
+        "state": {
+            "data": {
+                "@class": "com.finomics.ijma.corda.murabaha.accounts.states.ProformaState",
+                "seller": "GfHq2tTVk9z4eXgyQJnHhLf87gLGS9zc5L4bc1XEYPUZZeieKQZuTd6UuTgg",
+                "buyer": "GfHq2tTVk9z4eXgyW6A2TGmJDVEgrpKKCdgoXjhg4nuo8ZKArLPKFJTreSWE",
+                "sellerAccountInfo": {
+                    "name": "seller1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                    }
+                },
+                "buyerAccountInfo": {
+                    "name": "buyer1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "8f01b27a-7af0-4df6-886a-37143a7ef15f"
+                    }
+                },
+                "date": "2023-05-28",
+                "proformaId": "PR-1",
+                "processId": "PR-1",
+                "description": "french glass",
+                "goods": {
+                    "seller": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                    "vendor": {
+                        "name": "seller1",
+                        "host": "O=BorrowerBank, L=Karachi, C=PK",
+                        "identifier": {
+                            "externalId": null,
+                            "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                        }
+                    },
+                    "assetOwner": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                    "quantity": {
+                        "value": 25.0,
+                        "unit": "dzn"
+                    },
+                    "processId": "PR-1",
+                    "consignmentNumber": "CNS-1",
+                    "asset": "glass",
+                    "description": "french glass",
+                    "isRedeemable": true,
+                    "takaful": false,
+                    "owner": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                    "participants": [
+                        "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu"
+                    ]
+                },
+                "amount": 25052566,
+                "consumable": false,
+                "participants": [
+                    "GfHq2tTVk9z4eXgyQVhbHoRs5yBzstQx5WMoXLzppyTZ5rMJfwGNRtRXmZ6t",
+                    "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu"
+                ]
+            },
+            "contract": "com.finomics.ijma.corda.murabaha.accounts.contracts.ProformaContract",
+            "notary": "O=Notary, L=London, C=GB",
+            "encumbrance": null,
+            "constraint": {
+                "@class": "net.corda.core.contracts.WhitelistedByZoneAttachmentConstraint"
+            }
+        },
+        "ref": {
+            "txhash": "14451C383B365E7DDEE96DD42B1C90752400C6CDA0C92DBB6FE9B6C1307C1ABE",
+            "index": 0
+        }
+    },
+    {
+        "state": {
+            "data": {
+                "@class": "com.finomics.ijma.corda.murabaha.accounts.states.MurabahaApplicationState",
+                "date": "2023-05-28",
+                "applicant": "GfHq2tTVk9z4eXgyFyCbTT3BposJJKAzsJN8ELtK6UqA5dwLREyzNLRtnDQs",
+                "issuingBank": "GfHq2tTVk9z4eXgySA8JEk1xTfbJvD5oFXgwYsRrFD1DFFDwgZ22GNCK1st5",
+                "applicantAccount": {
+                    "name": "buyer1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "8f01b27a-7af0-4df6-886a-37143a7ef15f"
+                    }
+                },
+                "BankAccount": {
+                    "name": "Bank1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "b2c92b0f-58d4-4ad2-b673-f65e42159a00"
+                    }
+                },
+                "processId": "PR-1",
+                "referenceId": "MAPP-PR-1",
+                "beneficiary": {
+                    "name": "seller1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                    }
+                },
+                "advisingBank": "O=BorrowerBank, L=Karachi, C=PK",
+                "description": "french glass",
+                "consumable": false,
+                "tenor": 30,
+                "amount": 25052566,
+                "proforma": {
+                    "seller": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                    "buyer": "GfHq2tTVk9z4eXgyQVhbHoRs5yBzstQx5WMoXLzppyTZ5rMJfwGNRtRXmZ6t",
+                    "sellerAccountInfo": {
+                        "name": "seller1",
+                        "host": "O=BorrowerBank, L=Karachi, C=PK",
+                        "identifier": {
+                            "externalId": null,
+                            "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                        }
+                    },
+                    "buyerAccountInfo": {
+                        "name": "buyer1",
+                        "host": "O=BorrowerBank, L=Karachi, C=PK",
+                        "identifier": {
+                            "externalId": null,
+                            "id": "8f01b27a-7af0-4df6-886a-37143a7ef15f"
+                        }
+                    },
+                    "date": "2023-05-28",
+                    "proformaId": "PR-1",
+                    "processId": "PR-1",
+                    "description": "french glass",
+                    "goods": {
+                        "seller": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                        "vendor": {
+                            "name": "seller1",
+                            "host": "O=BorrowerBank, L=Karachi, C=PK",
+                            "identifier": {
+                                "externalId": null,
+                                "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                            }
+                        },
+                        "assetOwner": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                        "quantity": {
+                            "value": 25.0,
+                            "unit": "dzn"
+                        },
+                        "processId": "PR-1",
+                        "consignmentNumber": "CNS-1",
+                        "asset": "glass",
+                        "description": "french glass",
+                        "isRedeemable": true,
+                        "takaful": false,
+                        "owner": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                        "participants": [
+                            "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu"
+                        ]
+                    },
+                    "amount": 25052566,
+                    "consumable": true,
+                    "participants": [
+                        "GfHq2tTVk9z4eXgyQVhbHoRs5yBzstQx5WMoXLzppyTZ5rMJfwGNRtRXmZ6t",
+                        "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu"
+                    ]
+                }
+            },
+            "contract": "com.finomics.ijma.corda.murabaha.accounts.contracts.MurabahaApplicationContract",
+            "notary": "O=Notary, L=London, C=GB",
+            "encumbrance": null,
+            "constraint": {
+                "@class": "net.corda.core.contracts.WhitelistedByZoneAttachmentConstraint"
+            }
+        },
+        "ref": {
+            "txhash": "E2418B1B480AFD735ABC99D4F2C7AE6C487CDE7F9F20C4B3D69444C1D65579CE",
+            "index": 0
+        }
+    },
+    {
+        "state": {
+            "data": {
+                "@class": "com.finomics.ijma.corda.murabaha.accounts.states.PurchaseOrderState",
+                "date": "2023-05-29",
+                "vendor": "GfHq2tTVk9z4eXgyMnYZBpU8FLwU6vu3GGopfv9qEiqgPRP4Px1tJSR6U2m9",
+                "bank": "GfHq2tTVk9z4eXgySA8JEk1xTfbJvD5oFXgwYsRrFD1DFFDwgZ22GNCK1st5",
+                "bankAccountInfo": {
+                    "name": "Bank1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "b2c92b0f-58d4-4ad2-b673-f65e42159a00"
+                    }
+                },
+                "processId": "PR-1",
+                "referenceId": "PO-MAPP-PR-1",
+                "applicationId": "PR-1",
+                "description": "french glass",
+                "proforma": {
+                    "seller": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                    "buyer": "GfHq2tTVk9z4eXgyQVhbHoRs5yBzstQx5WMoXLzppyTZ5rMJfwGNRtRXmZ6t",
+                    "sellerAccountInfo": {
+                        "name": "seller1",
+                        "host": "O=BorrowerBank, L=Karachi, C=PK",
+                        "identifier": {
+                            "externalId": null,
+                            "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                        }
+                    },
+                    "buyerAccountInfo": {
+                        "name": "buyer1",
+                        "host": "O=BorrowerBank, L=Karachi, C=PK",
+                        "identifier": {
+                            "externalId": null,
+                            "id": "8f01b27a-7af0-4df6-886a-37143a7ef15f"
+                        }
+                    },
+                    "date": "2023-05-28",
+                    "proformaId": "PR-1",
+                    "processId": "PR-1",
+                    "description": "french glass",
+                    "goods": {
+                        "seller": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                        "vendor": {
+                            "name": "seller1",
+                            "host": "O=BorrowerBank, L=Karachi, C=PK",
+                            "identifier": {
+                                "externalId": null,
+                                "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                            }
+                        },
+                        "assetOwner": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                        "quantity": {
+                            "value": 25.0,
+                            "unit": "dzn"
+                        },
+                        "processId": "PR-1",
+                        "consignmentNumber": "CNS-1",
+                        "asset": "glass",
+                        "description": "french glass",
+                        "isRedeemable": true,
+                        "takaful": false,
+                        "owner": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                        "participants": [
+                            "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu"
+                        ]
+                    },
+                    "amount": 25052566,
+                    "consumable": true,
+                    "participants": [
+                        "GfHq2tTVk9z4eXgyQVhbHoRs5yBzstQx5WMoXLzppyTZ5rMJfwGNRtRXmZ6t",
+                        "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu"
+                    ]
+                },
+                "amount": 25052566,
+                "tenor": 2,
+                "consumable": false,
+                "insuranceTerms": false
+            },
+            "contract": "com.finomics.ijma.corda.murabaha.accounts.contracts.PurchaseOrderContract",
+            "notary": "O=Notary, L=London, C=GB",
+            "encumbrance": null,
+            "constraint": {
+                "@class": "net.corda.core.contracts.WhitelistedByZoneAttachmentConstraint"
+            }
+        },
+        "ref": {
+            "txhash": "ECE4E307498D10F310AD9948BE2CDD5B25A5C94AD16831653D4799AE6575ACB5",
+            "index": 0
+        }
+    },
+    {
+        "state": {
+            "data": {
+                "@class": "com.finomics.ijma.corda.murabaha.accounts.states.MurabahaState",
+                "bank": "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA",
+                "bankAccountInfo": {
+                    "name": "Bank1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "b2c92b0f-58d4-4ad2-b673-f65e42159a00"
+                    }
+                },
+                "borrower": "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA",
+                "borrowerAccountInfo": {
+                    "name": "buyer1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "8f01b27a-7af0-4df6-886a-37143a7ef15f"
+                    }
+                },
+                "processId": "PR-1",
+                "internalReference": "PO-MAPP-PR-1",
+                "agreementDate": "",
+                "goods": {
+                    "seller": "GfHq2tTVk9z4eXgyM3UbG6GxcwB1JygMoB1AQ4HqF8K34Un166vBWnf7KLNu",
+                    "vendor": {
+                        "name": "seller1",
+                        "host": "O=BorrowerBank, L=Karachi, C=PK",
+                        "identifier": {
+                            "externalId": null,
+                            "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                        }
+                    },
+                    "assetOwner": "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA",
+                    "quantity": {
+                        "value": 25.0,
+                        "unit": "dzn"
+                    },
+                    "processId": "PR-1",
+                    "consignmentNumber": "CNS-1",
+                    "asset": "glass",
+                    "description": "french glass",
+                    "isRedeemable": true,
+                    "takaful": false,
+                    "owner": "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA",
+                    "participants": [
+                        "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA"
+                    ]
+                },
+                "costPrice": 25052566,
+                "sellingprice": 0.0,
+                "profitrate": 0.0,
+                "term": 0,
+                "bankSignature": false,
+                "borrowerSignature": false,
+                "participants": [
+                    "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA",
+                    "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA"
+                ]
+            },
+            "contract": "com.finomics.ijma.corda.murabaha.accounts.contracts.MurabahaContract",
+            "notary": "O=Notary, L=London, C=GB",
+            "encumbrance": null,
+            "constraint": {
+                "@class": "net.corda.core.contracts.WhitelistedByZoneAttachmentConstraint"
+            }
+        },
+        "ref": {
+            "txhash": "ECE4E307498D10F310AD9948BE2CDD5B25A5C94AD16831653D4799AE6575ACB5",
+            "index": 2
+        }
+    },
+    {
+        "state": {
+            "data": {
+                "@class": "com.finomics.ijma.corda.murabaha.accounts.states.PromissoryNote",
+                "processId": "PR-1",
+                "id": "PNPO-MAPP-PR-1",
+                "value": 25052566,
+                "issuerParty": "GfHq2tTVk9z4eXgyTiAM6JY2bMKKPJidxtiAyv9Tz2iCr9RmBuNRSnc15NyA",
+                "issuerAccount": {
+                    "name": "Bank1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "b2c92b0f-58d4-4ad2-b673-f65e42159a00"
+                    }
+                },
+                "payeeParty": "GfHq2tTVk9z4eXgyX9X2ZDiv2ctKNgLuFRW6gtyjZYmDReYHy5qvEVYf5bkg",
+                "payeeAccount": {
+                    "name": "seller1",
+                    "host": "O=BorrowerBank, L=Karachi, C=PK",
+                    "identifier": {
+                        "externalId": null,
+                        "id": "cb100524-56cf-431f-9afa-6e8a24758976"
+                    }
+                },
+                "issueDate": "2023-05-29",
+                "maturity": "2023-05-31",
+                "isRedeemable": true,
+                "linearId": {
+                    "externalId": null,
+                    "id": "c02eb87a-52bd-4f34-b0e5-f6f52c141d0c"
+                }
+            },
+            "contract": "com.finomics.ijma.corda.murabaha.accounts.contracts.PromissoryNoteContract",
+            "notary": "O=Notary, L=London, C=GB",
+            "encumbrance": null,
+            "constraint": {
+                "@class": "net.corda.core.contracts.WhitelistedByZoneAttachmentConstraint"
+            }
+        },
+        "ref": {
+            "txhash": "ECE4E307498D10F310AD9948BE2CDD5B25A5C94AD16831653D4799AE6575ACB5",
+            "index": 3
+        }
+    }
+]
