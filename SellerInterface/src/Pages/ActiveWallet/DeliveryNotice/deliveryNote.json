@@ -1,0 +1,124 @@
+[
+    {
+        "date": "2024-07-05",
+        "supplier": "GfHq2tTVk9z4eXgyX817hJW4AvZE3Rsm4uLCGdUNWcmkGdjgHq9WGaeNzpVU",
+        "supplierAccount": {
+            "name": "Seller2",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "d22e4dfa-9705-4d94-8f2d-3f8753b85ebc"
+            }
+        },
+        "bank": "GfHq2tTVk9z4eXgyJJTYPVkAswxGkCbVue4AzvQ4b6UFmK3YFBDuYkncbary",
+        "bankAccountInfo": {
+            "name": "Bank1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "1c5747cb-029f-4f8a-b058-e308677a56e0"
+            }
+        },
+        "processId": "da04f2bf-f298-4ecd-9782-fc8872c33237",
+        "referenceId": "DNPR-1",
+        "placeOfDelivery": "Lahore",
+        "deliveryDate": "2024-07-10",
+        "goods": {
+            "seller": "GfHq2tTVk9z4eXgyMGHkhrwRgKLVcEpvD3tjkHUVCSzzzHHw9NyJt1mbfAvD",
+            "vendor": {
+                "name": "Seller2",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "d22e4dfa-9705-4d94-8f2d-3f8753b85ebc"
+                }
+            },
+            "assetOwner": "GfHq2tTVk9z4eXgyMGHkhrwRgKLVcEpvD3tjkHUVCSzzzHHw9NyJt1mbfAvD",
+            "quantity": {
+                "value": 100.0,
+                "unit": "1meters"
+            },
+            "amount": 0,
+            "processId": "da04f2bf-f298-4ecd-9782-fc8872c33237",
+            "consignmentNumber": "G-1",
+            "asset": "cotton",
+            "description": "American Cotton",
+            "isRedeemable": true,
+            "takaful": false,
+            "maintainers": [
+                "O=BorrowerBank, L=Karachi, C=PK",
+                "O=BorrowerBank, L=Karachi, C=PK"
+            ],
+            "issuer": "O=BorrowerBank, L=Karachi, C=PK",
+            "fractionDigits": 0,
+            "linearId": {
+                "externalId": null,
+                "id": "5a0c20ec-ec5e-477f-a602-f99c820508f7"
+            }
+        },
+        "sellingPrice": 786.0,
+        "consumable": false,
+        "insuranceTerms": false
+    },
+    {
+        "date": "2024-07-05",
+        "supplier": "GfHq2tTVk9z4eXgyEwHurA9MgScYSpgE9kgjNprUoVs8kFCLajdZLkJzRQt8",
+        "supplierAccount": {
+            "name": "Seller2",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "d22e4dfa-9705-4d94-8f2d-3f8753b85ebc"
+            }
+        },
+        "bank": "GfHq2tTVk9z4eXgyLnoX7znrsjmaLbAFYvBLqovt33qd2Ad2qH5Cuw2o3Yxn",
+        "bankAccountInfo": {
+            "name": "Bank1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "1c5747cb-029f-4f8a-b058-e308677a56e0"
+            }
+        },
+        "processId": "da04f2bf-f298-4ecd-9782-fc8872c33237",
+        "referenceId": "DNPR-1",
+        "placeOfDelivery": "Karachi",
+        "deliveryDate": "2024-07-10",
+        "goods": {
+            "seller": "GfHq2tTVk9z4eXgyMGHkhrwRgKLVcEpvD3tjkHUVCSzzzHHw9NyJt1mbfAvD",
+            "vendor": {
+                "name": "Seller2",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "d22e4dfa-9705-4d94-8f2d-3f8753b85ebc"
+                }
+            },
+            "assetOwner": "GfHq2tTVk9z4eXgyMGHkhrwRgKLVcEpvD3tjkHUVCSzzzHHw9NyJt1mbfAvD",
+            "quantity": {
+                "value": 100.0,
+                "unit": "1meters"
+            },
+            "amount": 0,
+            "processId": "da04f2bf-f298-4ecd-9782-fc8872c33237",
+            "consignmentNumber": "G-1",
+            "asset": "cotton",
+            "description": "American Cotton",
+            "isRedeemable": true,
+            "takaful": false,
+            "maintainers": [
+                "O=BorrowerBank, L=Karachi, C=PK",
+                "O=BorrowerBank, L=Karachi, C=PK"
+            ],
+            "issuer": "O=BorrowerBank, L=Karachi, C=PK",
+            "fractionDigits": 0,
+            "linearId": {
+                "externalId": null,
+                "id": "5a0c20ec-ec5e-477f-a602-f99c820508f7"
+            }
+        },
+        "sellingPrice": 786.0,
+        "consumable": false,
+        "insuranceTerms": false
+    }
+]

@@ -3,12 +3,14 @@ import { ToastContainer, toast } from 'react-toastify';
 import { getData, postData } from '../../../Api/Api';
 import { Spin } from 'antd';
 import './DeliveryNotice.css';
-import JsonData from './DeliveryNoticeState.json';
+// import JsonData from './DeliveryNoticeState.json';
 import StoreContext from '../../../ContextApi';
 import Filter from "./filter";
 import Modal from 'react-bootstrap/Modal';
 // pagination import here
-import PurchasePagination from "../../Pagination";
+import DeliveryNoticePagination from "../../Pagination";
+
+import DeliveryNoticeData from './deliveryNote.json';
 
 
 let itemsPerPage = 5;
@@ -23,7 +25,7 @@ export default function DeliveryNotice() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const [filterItem, setfilterItem] = useState(JsonData);
+    const [filterItem, setfilterItem] = useState(DeliveryNoticeData);
 
 
      //    new state pagination here
@@ -89,24 +91,24 @@ export default function DeliveryNotice() {
 
     return (
         <div class="card card-cascade narrower">
-            <Filter data={{ JsonData, setfilterItem }} />
+            <Filter data={{ DeliveryNoticeData, setfilterItem }} />
             <ToastContainer />
             <div
                 class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 d-flex justify-content-between align-items-center"
             >
             </div>
-            <h2 className='text-center'>Purchase Orders Detail</h2>
+            <h2 className='text-center'>Delivery Notice</h2>
             <div class="container mt-3">
                 <table class="table table-hover">
                     <thead class="bg-light">
                         <tr>
                             <th >Date</th>
-                            <th>Refrence No</th>
+                            <th>Refrence Id</th>
                             <th>Bank</th>
-                            <th>Client</th>
-                            <th>Proforma ID</th>
+                            <th>Supplier</th>
                             <th>Item</th>
-                            <th>Amount</th>
+                            <th>Delivery Date</th>
+                            <th>Delivery Place</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -117,10 +119,10 @@ export default function DeliveryNotice() {
                                     <td>{v?.date}</td>
                                     <td>{v?.referenceId}</td>
                                     <td>{v?.bankAccountInfo.name}</td>
-                                    <td>{v?.proforma.buyerAccountInfo.name}</td>
-                                    <td>{v?.applicationId}</td>
-                                    <td>{v?.proforma.goods.asset}</td>
-                                    <td>{v?.amount}</td>
+                                    <td>{v?.supplierAccount.name}</td>
+                                    <td>{v?.goods.asset}</td>
+                                    <td>{v?.deliveryDate}</td>
+                                    <td>{v?.placeOfDelivery}</td>
                                     <td>
                                         <span type="button" class="btn btn-warning btn-rounded" data-toggle="modal" data-target="#myModal"
                                             onClick={() => handleShow(setItem(v))}
@@ -132,13 +134,13 @@ export default function DeliveryNotice() {
                     })}
                 </table>
                 <div style={{display:'flex',justifyContent:"center",alignItems:'center'}}>
-                    <PurchasePagination count={totalPages} page={page} onChange={handlePageChange} data={filterItem}/>
+                    <DeliveryNoticePagination count={totalPages} page={page} onChange={handlePageChange} data={filterItem}/>
                 </div>
             </div>
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Purchase Order Details</Modal.Title>
+                    <Modal.Title>Delivery Notice</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
 
@@ -164,18 +166,22 @@ export default function DeliveryNotice() {
                                     <td>Bank</td>
                                     <td>{item.bankAccountInfo.name}</td>
                                 </tr>
-                                <tr>
+                                {/* <tr>
                                     <td>Client</td>
                                     <td>{item.bankAccountInfo.name}</td>
-                                    {/* <td>Buyer 1</td> */}
+                                    <td>Buyer 1</td>
+                                </tr> */}
+                                   <tr>
+                                    <td>Supplier</td>
+                                    <td>{item.supplierAccount.name}</td>
                                 </tr>
                                 <tr>
-                                    <td>Proforma Id</td>
-                                    <td>{item.applicationId}</td>
+                                    <td>Process Id</td>
+                                    <td>{item.goods.processId}</td>
                                 </tr>
                                 <tr>
                                     <td>Item</td>
-                                    <td>{item.proforma.goods.asset}</td>
+                                    <td>{item.goods.asset}</td>
                                 </tr>
                                 <tr>
                                     <td>Description</td>
@@ -183,11 +189,20 @@ export default function DeliveryNotice() {
                                 </tr>
                                 <tr>
                                     <td>Quantity</td>
-                                    <td>{item.proforma.goods.quantity.value + " " + item.proforma.goods.quantity.unit}</td>
+                                    <td>{item.goods.quantity.value + " " + item.goods.quantity.unit}</td>
                                 </tr>
-                                <tr>
+                                {/* <tr>
                                     <td>Amount</td>
                                     <td>{item.amount}</td>
+                                </tr> */}
+                                <tr>
+                                    <td>Delivery Date</td>
+                                    <td>{item.deliveryDate}</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Delivery Place</td>
+                                    <td>{item.placeOfDelivery}</td>
                                 </tr>
 
                             </table>
