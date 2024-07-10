@@ -144,7 +144,7 @@ export default function Salam() {
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Proforma Details</Modal.Title>
+                    <Modal.Title>Salam Details</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     {(item != null) ?

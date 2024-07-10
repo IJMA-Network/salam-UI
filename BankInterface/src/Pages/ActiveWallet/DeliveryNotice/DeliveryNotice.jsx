@@ -1,6 +1,6 @@
 import { React, useState, useEffect, useContext } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
-import { getData, postData } from '../../../Api/Api';
+import { getData, postData } from '../../../Api/api';
 import { Spin } from 'antd';
 import './DeliveryNotice.css';
 // import JsonData from './DeliveryNoticeState.json';
