@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect,useContext } from "react";
 import { Button, notification } from "antd";
 import StoreContext from "../../ContextApi";
 import axios from "axios";
-import "./Proforma.css";
+import "./OfferSalam.css";
 import { Form } from "react-bootstrap";
 import { createPorforma } from "../../Api/Api";
 
@@ -57,7 +57,7 @@ export default function Proforma() {
           {/* <h3>Issue Term Sheet</h3>
                         <p class="blue-text">Just a few Ijma Sheet<br /> so that we can personalize the right experience for you.</p> */}
           <div class="card ">
-            <h3 className="text-center">Issue Proforma</h3>
+            <h3 className="text-center">Offer Salam form</h3>
             {/* <p class="blue-text text-center">Just a few Ijma Sheet<br /> so that we can personalize the right experience for you.</p> */}
             <form
               class="form-card"

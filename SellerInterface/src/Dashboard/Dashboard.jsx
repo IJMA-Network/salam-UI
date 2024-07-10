@@ -10,8 +10,8 @@ import {
 } from '@ant-design/icons';
 import {
   WalletDashboard, Applications, TermSheetData,
-  Goods, Murabaha, Promissory, Proforma,
-  VaultMurabaha, VaultPromissory, PurchesOrder, Proformas
+  Goods, Murabaha, Promissory, OfferSalam,
+  VaultMurabaha, VaultPromissory, Proformas, TermSheet, Salam, DeliveryNotice
 } from '../Pages/index'
 import StoreContext from '../ContextApi';
 import { useNavigate } from 'react-router-dom';
@@ -49,14 +49,14 @@ export default function Dashboard() {
     progress: undefined,
     theme: "light",
   });
-  const logout = () => {
-    setloading(false)
-    notify()
-    setTimeout(() => {
-      setloading(true)
-      navigate('/')
-    }, 2000);
-  }
+  // const logout = () => {
+  //   setloading(false)
+  //   notify()
+  //   setTimeout(() => {
+  //     setloading(true)
+  //     navigate('/')
+  //   }, 2000);
+  // }
 
   const items = [
 
@@ -64,7 +64,7 @@ export default function Dashboard() {
     {
       key: '1',
       icon: <TeamOutlined onClick={() => setTrigger(1)} />,
-      label: <div onClick={() => setTrigger(1)}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Proforma' : ''}</span></div>,
+      label: <div onClick={() => setTrigger(1)}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Offer Salam' : ''}</span></div>,
     },
     // {
     //   key: '2',
@@ -86,10 +86,22 @@ export default function Dashboard() {
       //   icon: <DingtalkOutlined onClick={() => setTrigger('2b')} />,
       //   label: <div onClick={() => setTrigger('2b')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Murabaha' : ''}</span></div>,
       // },
+
+       {
+        key: '1b',
+        icon: <AndroidOutlined onClick={() => setTrigger('1b')} />,
+        label: <div onClick={() => setTrigger('1b')}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Term Sheet' : ''}</span></div>,
+      },
+
+       {
+          key: '2b',
+          icon: <DingtalkOutlined onClick={() => setTrigger('2b')} />,
+          label: <div onClick={() => setTrigger('2b')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Salam' : ''}</span></div>,
+        },      
       {
         key: '4a',
         icon: <HomeOutlined onClick={() => setTrigger('4a')} />,
-        label: <div onClick={() => setTrigger('4a')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Purchase Order' : ''}</span></div>,
+        label: <div onClick={() => setTrigger('4a')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Delivery Notice' : ''}</span></div>,
       },
       {
         key: '3b',
@@ -127,13 +139,13 @@ export default function Dashboard() {
     ]),
 
 
-    {
+    // {
 
-      key: '',
-      icon: <LoginOutlined onClick={() => logout()} />,
-      label: <div onClick={() => logout()}>< span style={{ marginLeft: '5%' }}> {!collapsed ? ' Log Out' : ''}</span ></div>
+    //   key: '',
+    //   icon: <LoginOutlined onClick={() => logout()} />,
+    //   label: <div onClick={() => logout()}>< span style={{ marginLeft: '5%' }}> {!collapsed ? ' Log Out' : ''}</span ></div>
 
-    }
+    // }
   ];
 
 
@@ -182,7 +194,7 @@ export default function Dashboard() {
 
             trigger === 1 ? (
               <>
-                <Proforma />
+                <OfferSalam />
               </>
             ) :
               trigger === 2 ? (
@@ -207,16 +219,16 @@ export default function Dashboard() {
                     )
                       : trigger === '4a' ? (
                         <>
-                          <PurchesOrder />
+                          <DeliveryNotice />
                         </>
                       )
                         : trigger === '1b' ? (
                           <>
-                            <Applications />
+                            <TermSheet />
                           </>
                         ) : trigger === '2b' ? (
                           <>
-                            <Murabaha />
+                          <Salam />
                           </>
                         ) : trigger === '3b' ? (
                           <>

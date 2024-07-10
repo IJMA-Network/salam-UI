@@ -2,8 +2,8 @@ import { React, useState, useEffect, useContext } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import { getData, postData } from '../../../Api/Api';
 import { Spin } from 'antd';
-import './PurchaesOrder.css';
-import JsonData from './PurchaesOrderState.json';
+import './DeliveryNotice.css';
+import JsonData from './DeliveryNoticeState.json';
 import StoreContext from '../../../ContextApi';
 import Filter from "./filter";
 import Modal from 'react-bootstrap/Modal';
@@ -13,7 +13,7 @@ import PurchasePagination from "../../Pagination";
 
 let itemsPerPage = 5;
 
-export default function PurchaesOrder() {
+export default function DeliveryNotice() {
 
     const [user, setUser] = useState({ accountName: "seller1" });
     // const [pOrders, setpOrders] = useState(PurchesOrder);
@@ -31,7 +31,7 @@ export default function PurchaesOrder() {
      const totalPages = Math.ceil(filterItem?.length / itemsPerPage);
  
     const contextData = useContext(StoreContext);
-    console.log(contextData.SignInData, "PurchaesOrder Context Data");
+    console.log(contextData.SignInData, "DeliveryNotice Context Data");
 
 
     const notify = () => toast.success('🦄 Successfully!', {
