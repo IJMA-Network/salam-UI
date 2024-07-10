@@ -1,0 +1,184 @@
+[
+    {
+        "date": "2023-05-28",
+        "vendor": "GfHq2tTVk9z4eXgyKH785DxwxxhRgH4udPo4fFmnDHZ2ZVyh4brUmvBMYDKi",
+        "bank": "GfHq2tTVk9z4eXgyVMxpenkMuUqA94YroNcCwBCki3TZezMDLht8N3D7Fd3z",
+        "bankAccountInfo": {
+            "name": "Bank1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "a86142f1-776e-4e32-8eb3-b1a0c40613e3"
+            }
+        },
+        "referenceId": "PO-MAPP-PR-1",
+        "applicationId": "PR-1",
+        "description": "Egyptian Cotton of Superior Quality",
+        "proforma": {
+            "seller": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+            "buyer": "GfHq2tTVk9z4eXgyLGrnJq2RkzK1hHQidMHJ2cmieFxijhNv1fix5qrKgNU6",
+            "sellerAccountInfo": {
+                "name": "Seller1",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "68542c91-7602-4b10-86bd-67f6a70b61cc"
+                }
+            },
+            "buyerAccountInfo": {
+                "name": "Buyer1",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "a86142f1-776e-4e32-8eb3-b1a0c40613e3"
+                }
+            },
+            "date": "2021-01-04",
+            "proformaId": "PR-1",
+            "description": "Egyptian Cotton of Superior Quality",
+            "goods": {
+                "seller": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "assetOwner": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "quantity": "12  million bales",
+                "internalReference": "G-1",
+                "asset": "Cotton",
+                "takaful": false,
+                "owner": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "participants": [
+                    "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W"
+                ]
+            },
+            "amount": 786,
+            "consumable": true,
+            "participants": [
+                "GfHq2tTVk9z4eXgyLGrnJq2RkzK1hHQidMHJ2cmieFxijhNv1fix5qrKgNU6",
+                "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W"
+            ]
+        },
+        "amount": "90,000,000",
+        "tenor": 2,
+        "consumable": true,
+        "insuranceTerms": false
+    },
+    {
+        "date": "2023-05-25",
+        "vendor": "GfHq2tTVk9z4eXgyKH785DxwxxhRgH4udPo4fFmnDHZ2ZVyh4brUmvBMYDKi",
+        "bank": "GfHq2tTVk9z4eXgyVMxpenkMuUqA94YroNcCwBCki3TZezMDLht8N3D7Fd3z",
+        "bankAccountInfo": {
+            "name": "Bank1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "a86142f1-776e-4e32-8eb3-b1a0c40613e3"
+            }
+        },
+        "referenceId": "PO-MAPP-PR-1",
+        "applicationId": "PR-1",
+        "description": "Egyptian Cotton of Superior Quality",
+        "proforma": {
+            "seller": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+            "buyer": "GfHq2tTVk9z4eXgyLGrnJq2RkzK1hHQidMHJ2cmieFxijhNv1fix5qrKgNU6",
+            "sellerAccountInfo": {
+                "name": "Seller1",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "68542c91-7602-4b10-86bd-67f6a70b61cc"
+                }
+            },
+            "buyerAccountInfo": {
+                "name": "Buyer1",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "a86142f1-776e-4e32-8eb3-b1a0c40613e3"
+                }
+            },
+            "date": "2023-01-25",
+            "proformaId": "PR-1",
+            "description": "Egyptian Cotton of Superior Quality",
+            "goods": {
+                "seller": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "assetOwner": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "quantity": "12  million bales",
+                "internalReference": "G-1",
+                "asset": "Cotton",
+                "takaful": false,
+                "owner": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "participants": [
+                    "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W"
+                ]
+            },
+            "amount": 786,
+            "consumable": true,
+            "participants": [
+                "GfHq2tTVk9z4eXgyLGrnJq2RkzK1hHQidMHJ2cmieFxijhNv1fix5qrKgNU6",
+                "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W"
+            ]
+        },
+        "amount": "90,000,000",
+        "tenor": 2,
+        "consumable": true,
+        "insuranceTerms": false
+    }, {
+        "date": "MM-DD-YY",
+        "vendor": "GfHq2tTVk9z4eXgyKH785DxwxxhRgH4udPo4fFmnDHZ2ZVyh4brUmvBMYDKi",
+        "bank": "GfHq2tTVk9z4eXgyVMxpenkMuUqA94YroNcCwBCki3TZezMDLht8N3D7Fd3z",
+        "bankAccountInfo": {
+            "name": "Bank1",
+            "host": "O=BorrowerBank, L=Karachi, C=PK",
+            "identifier": {
+                "externalId": null,
+                "id": "a86142f1-776e-4e32-8eb3-b1a0c40613e3"
+            }
+        },
+        "referenceId": "PO-MAPP-PR-1",
+        "applicationId": "PR-1",
+        "description": "Egyptian Cotton of Superior Quality",
+        "proforma": {
+            "seller": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+            "buyer": "GfHq2tTVk9z4eXgyLGrnJq2RkzK1hHQidMHJ2cmieFxijhNv1fix5qrKgNU6",
+            "sellerAccountInfo": {
+                "name": "Seller1",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "68542c91-7602-4b10-86bd-67f6a70b61cc"
+                }
+            },
+            "buyerAccountInfo": {
+                "name": "Buyer1",
+                "host": "O=BorrowerBank, L=Karachi, C=PK",
+                "identifier": {
+                    "externalId": null,
+                    "id": "a86142f1-776e-4e32-8eb3-b1a0c40613e3"
+                }
+            },
+            "date": "2021-01-04",
+            "proformaId": "PR-1",
+            "description": "Egyptian Cotton of Superior Quality",
+            "goods": {
+                "seller": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "assetOwner": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "quantity": "12  million bales",
+                "internalReference": "G-1",
+                "asset": "Cotton",
+                "takaful": false,
+                "owner": "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W",
+                "participants": [
+                    "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W"
+                ]
+            },
+            "amount": 786,
+            "consumable": true,
+            "participants": [
+                "GfHq2tTVk9z4eXgyLGrnJq2RkzK1hHQidMHJ2cmieFxijhNv1fix5qrKgNU6",
+                "GfHq2tTVk9z4eXgyMNx73Jfe14i6LJVVCAMTFWiV45DWLAbSG5zwwZdNPk4W"
+            ]
+        },
+        "amount": "90,000,000",
+        "tenor": 2,
+        "consumable": true,
+        "insuranceTerms": false
+    }
+  ]

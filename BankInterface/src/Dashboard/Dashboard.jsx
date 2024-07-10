@@ -12,7 +12,7 @@ import ijma from '../Images/Ijma.png'
 import {
   WalletDashboard, Applications, TermSheetData,
   Goods, Murabaha, Promissory, TermSheet,Processflow,
-  VaultMurabaha, VaultPromissory, PurchesOrder, UserForm,OfferComponent,ContractSheet
+  VaultMurabaha, VaultPromissory, PurchesOrder, UserForm,OfferComponent,ContractSheet, Salam, DeliveryNotice
 } from '../Pages/index'
 import { useNavigate } from "react-router-dom";
 
@@ -35,10 +35,10 @@ export default function Dashboard() {
     };
   }
 
-  const logout = () => {
+  // const logout = () => {
   
-    navigate('/')
-  }
+  //   navigate('/')
+  // }
 
   const items = [
 
@@ -48,41 +48,53 @@ export default function Dashboard() {
       icon: <TeamOutlined onClick={() => setTrigger(1)} />,
       label: <div onClick={() => setTrigger(1)}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Issue TermSheet' : ''}</span></div>,
     },
-    {
-      key: '1a',
-      icon: <PieChartOutlined onClick={() => setTrigger('1a')} />,
-      label: <div onClick={() => setTrigger('1a')}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Contract TermSheet' : ''}</span></div>,
-    },
-    {
-      key: '2',
-      icon: <PieChartOutlined onClick={() => setTrigger(2)} />,
-      label: <div onClick={() => setTrigger(2)}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'UserForm' : ''}</span></div>,
-    },
-    {
-      key: '3',
-      icon: <PieChartOutlined onClick={() => setTrigger(3)} />,
-      label: <div onClick={() => setTrigger(3)}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Processflow' : ''}</span></div>,
-    },
+    // {
+    //   key: '1a',
+    //   icon: <PieChartOutlined onClick={() => setTrigger('1a')} />,
+    //   label: <div onClick={() => setTrigger('1a')}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Contract TermSheet' : ''}</span></div>,
+    // },
+    // {
+    //   key: '2',
+    //   icon: <PieChartOutlined onClick={() => setTrigger(2)} />,
+    //   label: <div onClick={() => setTrigger(2)}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'UserForm' : ''}</span></div>,
+    // },
+    // {
+    //   key: '3',
+    //   icon: <PieChartOutlined onClick={() => setTrigger(3)} />,
+    //   label: <div onClick={() => setTrigger(3)}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Processflow' : ''}</span></div>,
+    // },
 
 
 
     getItem('Active Wallet', 'sub2', <TeamOutlined />, [
+      // {
+      //   key: '1b',
+      //   icon: <AndroidOutlined onClick={() => setTrigger('1b')} />,
+      //   label: <div onClick={() => setTrigger('1b')}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Applications' : ''}</span></div>,
+      // },
+
       {
         key: '1b',
         icon: <AndroidOutlined onClick={() => setTrigger('1b')} />,
-        label: <div onClick={() => setTrigger('1b')}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Applications' : ''}</span></div>,
+        label: <div onClick={() => setTrigger('1b')}><span style={{ marginLeft: '5%' }}> {!collapsed ? 'Salam' : ''}</span></div>,
       },
+
+      // {
+      //   key: '2b',
+      //   icon: <DingtalkOutlined onClick={() => setTrigger('2b')} />,
+      //   label: <div onClick={() => setTrigger('2b')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Murabaha' : ''}</span></div>,
+      // },
 
       {
         key: '2b',
         icon: <DingtalkOutlined onClick={() => setTrigger('2b')} />,
-        label: <div onClick={() => setTrigger('2b')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Murabaha' : ''}</span></div>,
+        label: <div onClick={() => setTrigger('2b')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Delivery Notice' : ''}</span></div>,
       },
-      {
-        key: '2c',
-        icon: <DingtalkOutlined onClick={() => setTrigger('2c')} />,
-        label: <div onClick={() => setTrigger('2c')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Offers' : ''}</span></div>,
-      },
+      // {
+      //   key: '2c',
+      //   icon: <DingtalkOutlined onClick={() => setTrigger('2c')} />,
+      //   label: <div onClick={() => setTrigger('2c')}> <span style={{ marginLeft: '5%' }}> {!collapsed ? 'Offers' : ''}</span></div>,
+      // },
       {
         
         key: '3b',
@@ -122,12 +134,12 @@ export default function Dashboard() {
       // },
 
     ]),
-    {
+    // {
 
-      key: '',
-      icon: <LoginOutlined onClick={() => logout()} />,
-      label: <div onClick={() => logout()}><span style={{ marginLeft: '5%' }}> {!collapsed ? ' Log Out' : ''}</span></div>,
-    },
+    //   key: '',
+    //   icon: <LoginOutlined onClick={() => logout()} />,
+    //   label: <div onClick={() => logout()}><span style={{ marginLeft: '5%' }}> {!collapsed ? ' Log Out' : ''}</span></div>,
+    // },
   ];
 
 
@@ -210,11 +222,11 @@ export default function Dashboard() {
                       )
                         : trigger === '1b' ? (
                           <>
-                            <Applications />
+                            <Salam />
                           </>
                         ) : trigger === '2b' ? (
                           <>
-                            <Murabaha />
+                            <DeliveryNotice />
                           </>
                           ): trigger === '2c' ? (
                             <>

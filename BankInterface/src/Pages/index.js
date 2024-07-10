@@ -3,6 +3,11 @@ export { default as Applications } from "./ActiveWallet/Applications/Application
 export { default as Murabaha } from "./ActiveWallet/Murabaha/Murabaha";
 export { default as Promissory } from "./ActiveWallet/Promissory/Promissory";
 export { default as Goods } from "./ActiveWallet/Goods/Goods";
+
+export { default as Salam } from "./ActiveWallet/Salam/Salam";
+export { default as DeliveryNotice } from "./ActiveWallet/DeliveryNotice/DeliveryNotice";
+
+
 export { default as TermSheet } from "./TermSheet/TermSheet";
 export { default as TermSheetData } from "./Vault/TermSheetData/TermSheetData";
 export { default as VaultMurabaha } from "./Vault/VaultMurabaha/VaultMurabaha";
