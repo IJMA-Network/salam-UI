@@ -55,3 +55,6 @@ button:focus {
     box-shadow: none !important;
     outline-width: 0
 }
+.ItemPicker{
+    padding: 8px 15px;
+}

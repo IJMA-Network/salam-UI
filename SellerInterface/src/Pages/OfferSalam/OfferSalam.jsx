@@ -6,7 +6,32 @@ import "./OfferSalam.css";
 import { Form } from "react-bootstrap";
 import { createPorforma } from "../../Api/Api";
 
+
+import Select from 'react-select';
+
+
 export default function Proforma() {
+
+  // const [pickerValue, setPickerValue] = useState('');
+  // console.log("Picker Values",pickerValue);
+
+
+  const [selectedValue, setSelectedValue] = useState(null);
+  const [selectedValueUnit, setSelectedValueUnit] = useState(null);
+
+
+  const handleChange = (value) => {
+    setSelectedValue(value);
+  };
+
+  const itemPickerUnits = [
+    {value: 'meters', label: 'Meters'},
+    {value: 'kgs', label: 'Kgs'},
+    {value: 'litres', label: 'Litres'},
+    
+   ]
+
+
   const contextData = useContext(StoreContext);
 
   const[user,setUser]=useState({accountName:"SellerNo. 1",UserAccountNo:"Seller1"});
@@ -39,7 +64,7 @@ export default function Proforma() {
     var data = {
       seller: user.UserAccountNo,
       client: Client.current.value,
-      proformaId: Proforma.current.value,
+      salamId: Proforma.current.value,
       consignNo: Consign.current.value,
       item: Item.current.value,
       description: Description.current.value,
@@ -84,7 +109,7 @@ export default function Proforma() {
               <div class="row justify-content-between text-left">
                 <div class="form-group col-12 flex-column d-flex">
                   <label class="form-label">
-                    client<span class="text-danger"> *</span>
+                    Bank<span class="text-danger"> *</span>
                   </label>
                   <input
                     type="text"
@@ -112,6 +137,14 @@ export default function Proforma() {
                                         <Form.Control type="date" name="dob" placeholder="Date of Birth" />
                                     </Form.Group>
                                 </div> */}
+              <div className="ItemPicker">
+              <Select 
+              // options={pickerValue} 
+              value={selectedValue} 
+              onChange={handleChange} 
+              />
+              
+              </div>
               </div>
 
               {/* <br /> */}
@@ -182,6 +215,7 @@ export default function Proforma() {
               </div>
               {/* <br /> */}
 
+              <div style={{display: 'flex', flexDirection: 'row',}}>
               <div class="row justify-content-between text-left">
                 <div class=" form-group col-sm-5 flex-column d-flex form-label">
                   <label class="form-label">
@@ -197,7 +231,7 @@ export default function Proforma() {
                   />
                 </div>
 
-                <div class="form-group col-sm-5 flex-column d-flex">
+                {/* <div class="form-group col-sm-5 flex-column d-flex">
                   <label class="form-label">
                     unit<span class="text-danger"> *</span>
                   </label>
@@ -209,6 +243,18 @@ export default function Proforma() {
                     onblur="validate(1)"
                     ref={unit}
                   />
+                </div> */}
+
+
+                  <div>
+                  <Select  
+                    
+                    placeholder="Unit"
+                    options={itemPickerUnits}
+                    // onChange={handleChangeUnit}
+                    // value={selectedValueUnit}
+                  />
+                </div>
                 </div>
 
                 <div class=" form-group col-sm-2 flex-column d-flex form-label">

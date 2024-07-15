@@ -69,7 +69,7 @@ export default function Salam() {
 
         let payload = {
             bank: bank,
-            proformaId: item.processId,
+            salamId: item.processId,
             "term": value,
             borrower: contextData.SignInData.UserAccountNo,
         }
@@ -118,7 +118,7 @@ export default function Salam() {
                             <tbody>
                                 <tr>
                                     <td>{v?.date}</td>
-                                    <td>{v?.proformaId}</td>
+                                    <td>{v?.salamId}</td>
                                     <td>{v?.sellerAccountInfo?.name}</td>
                                     <td>{v?.goods?.asset}</td>
                                     <td>{v?.goods?.quantity?.value + " " + v?.goods?.quantity?.unit}</td>
@@ -161,7 +161,7 @@ export default function Salam() {
                             </tr>
                             <tr>
                                 <td>Refrence No.</td>
-                                <td>{item.proformaId}</td>
+                                <td>{item.salamId}</td>
                             </tr>
                             <tr>
                                 <td>Date</td>

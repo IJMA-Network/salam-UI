@@ -19,7 +19,7 @@
             }
         },
         "date": "2023-05-28",
-        "proformaId": "PR-1",
+        "salamId": "PR-1",
         "processId": "PR-1",
         "description": "EgyptianCotton",
         "goods": {
@@ -75,7 +75,7 @@
             }
         },
         "date": "2023-05-29",
-        "proformaId": "PR-2",
+        "salamId": "PR-2",
         "processId": "PR-2",
         "description": "EgyptianCotton",
         "goods": {
@@ -131,7 +131,7 @@
             }
         },
         "date": "2023-05-29",
-        "proformaId": "PR-3",
+        "salamId": "PR-3",
         "processId": "PR-3",
         "description": "EgyptianCotton",
         "goods": {
