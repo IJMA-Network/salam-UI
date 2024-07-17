@@ -10,7 +10,7 @@ import { createPorforma } from "../../Api/Api";
 import Select from 'react-select';
 
 
-export default function Proforma() {
+export default function OfferSalam() {
 
   // const [pickerValue, setPickerValue] = useState('');
   // console.log("Picker Values",pickerValue);
@@ -39,7 +39,7 @@ export default function Proforma() {
   useEffect(()=>{
     setUser(contextData.SignInData)
 
- console.log("User in Proforma",contextData.SignInData);
+ console.log("User in Salam",contextData.SignInData);
  setUser(contextData.SignInData);
 
   
@@ -48,10 +48,10 @@ export default function Proforma() {
   const Description = useRef();
   const PorValue = useRef();
   const unit = useRef();
-  const Proforma = useRef();
+  const Salam = useRef();
   const Consign = useRef();
   const Amount = useRef();
-  const Client = useRef();
+  const Bank = useRef();
   const Seller = useRef();
   const Item = useRef();
 //
@@ -63,8 +63,8 @@ export default function Proforma() {
 
     var data = {
       seller: user.UserAccountNo,
-      client: Client.current.value,
-      salamId: Proforma.current.value,
+      bank: Bank.current.value,
+      salamId: Salam.current.value,
       consignNo: Consign.current.value,
       item: Item.current.value,
       description: Description.current.value,
@@ -116,7 +116,7 @@ export default function Proforma() {
                     id="ans"
                     name="ans"
                     placeholder="Buyer1"
-                    ref={Client}
+                    ref={Bank}
                     onblur="validate(6)"
                   />
                 </div>
@@ -151,14 +151,14 @@ export default function Proforma() {
               <div class="row justify-content-between text-left">
                 <div class="form-group col-12 flex-column d-flex">
                   <label class="form-label">
-                    Proforma Id<span class="text-danger"> *</span>
+                    Salam Id<span class="text-danger"> *</span>
                   </label>
                   <input
                     type="text"
                     id="ans"
                     name="ans"
                     placeholder="PR-1"
-                    ref={Proforma}
+                    ref={Salam}
                     onblur="validate(6)"
                   />
                 </div>
@@ -215,12 +215,13 @@ export default function Proforma() {
               </div>
               {/* <br /> */}
 
-              <div style={{display: 'flex', flexDirection: 'row',}}>
-              <div class="row justify-content-between text-left">
-                <div class=" form-group col-sm-5 flex-column d-flex form-label">
+              <div style={{display: 'block', }}>
+              {/* <div class="row justify-content-between text-left"> */}
+                {/* <div class=" form-group col-sm-5 flex-column d-flex form-label"> */}
                   <label class="form-label">
                     Value<span class="text-danger"> *</span>
                   </label>
+                <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
                   <input
                     type="text"
                     id="ans"
@@ -229,7 +230,7 @@ export default function Proforma() {
                     onblur="validate(1)"
                     ref={PorValue}
                   />
-                </div>
+                {/* </div> */}
 
                 {/* <div class="form-group col-sm-5 flex-column d-flex">
                   <label class="form-label">
@@ -256,6 +257,7 @@ export default function Proforma() {
                   />
                 </div>
                 </div>
+                </div>
 
                 <div class=" form-group col-sm-2 flex-column d-flex form-label">
                   <label class="form-label mt-4">
@@ -264,7 +266,7 @@ export default function Proforma() {
 
                   {/* <button class="btn btn-primary" type="button" onClick={QuizOPtion}>+</button> */}
                 </div>
-              </div>
+              {/* </div> */}
 
               {/* <br /> */}
 
