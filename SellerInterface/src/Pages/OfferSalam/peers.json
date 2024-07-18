@@ -1,0 +1,14 @@
+[
+   {
+      "label":"SellerBank",
+      "value":"O=SellerBank, L=Lahore, C=PK"
+   },
+   {
+      "label":"Observer",
+      "value":"CN=John, O=Observer, L=Chicago, C=US"
+   },
+   {
+      "label":"BorrowerBank",
+      "value":"O=BorrowerBank,L=Karachi,C=PK"
+   }
+]

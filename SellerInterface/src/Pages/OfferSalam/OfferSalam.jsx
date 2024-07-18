@@ -5,12 +5,15 @@ import axios from "axios";
 import "./OfferSalam.css";
 import { Form } from "react-bootstrap";
 import { createPorforma } from "../../Api/Api";
+import PickerValues from './peers.json';
 
 
 import Select from 'react-select';
 
 
 export default function OfferSalam() {
+
+  const [pickerValue, setPickerValue] = useState(PickerValues);
 
   // const [pickerValue, setPickerValue] = useState('');
   // console.log("Picker Values",pickerValue);
@@ -142,6 +145,7 @@ export default function OfferSalam() {
               // options={pickerValue} 
               value={selectedValue} 
               onChange={handleChange} 
+              options={pickerValue}
               />
               
               </div>
