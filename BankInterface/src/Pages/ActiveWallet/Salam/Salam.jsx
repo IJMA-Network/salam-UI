@@ -194,7 +194,7 @@ export default function Salam() {
                     }
                 </Modal.Body>
                 <div className="modal-footer d-flex justify-content-evenly">
-                    <input type="number" placeholder="Tenor" onChange={(e) => setValue(e.target.value)} />
+                    {/* <input type="number" placeholder="Tenor" onChange={(e) => setValue(e.target.value)} /> */}
                     <input type="text" placeholder="Bank" onChange={(e) => setBank(e.target.value)} />
                     {loading ? <button type="button" className="btn btn-success close" data-dismiss={show} onClick={handleRequestMurabaha} >Request Murabaha</button> : <Spin size="large" />}
 
